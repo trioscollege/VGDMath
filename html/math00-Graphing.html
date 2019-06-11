@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Graphing with JS</title>
+
+		<link rel="stylesheet" type="text/css" href="css/graph.css">
+		
+	</head>
+	<body>
+
+		<div style="position: absolute; top: 50px; left: 50px;">
+
+			<textarea id="function-code">
+var F = function(x) {
+	return x*2; // lines (day 2) 
+	// Try:
+	//  return x*x;
+	// or
+	// return Math.sin(x); 
+} ;
+			</textarea>
+			<center>
+				<input type="button" onclick="Draw();" value="Draw!">
+			</center>
+		
+			<canvas id="xy-graph" width="535" height="300">
+ 				Your browser does not support HTML5 Canvas.
+			</canvas>
+		</div>
+
+		<script src="js/canvas-graph.js"></script>
+	</body>
+</html>
