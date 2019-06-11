@@ -2,7 +2,7 @@
 
 
 
-Math &amp; Physics Code for Visualizing Math and Physics Concpts
+Math &amp; Physics Code for Visualizing Math and Physics Concepts
 
 Clone this repository to your local system (In your GameDev folder)
 
